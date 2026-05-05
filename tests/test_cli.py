@@ -62,6 +62,10 @@ globs: ["**/*.py"]
                 has_project = os.path.exists(".trae/rules/test-rule.md")
                 has_specific = os.path.exists(".trae/skills/test-rule/SKILL.md")
                 self.assertTrue(has_project or has_specific)
+            elif target == "hermes":
+                self.assertTrue(os.path.exists(".hermes/skills/test-rule.md"))
+            elif target == "kiro":
+                self.assertTrue(os.path.exists(".kiro/steering/test-rule.md"))
 
     def test_pull_merging(self):
         # Create two rules

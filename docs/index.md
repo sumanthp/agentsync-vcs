@@ -7,7 +7,7 @@ Universal Agent VCS and package manager for AI Agent behaviors.
 
 ## Key Features
 - **Universal Rule Format**: Write rules once in Markdown with YAML frontmatter.
-- **Multi-IDE Support**: Automatically translates rules for Cursor, Claude, Copilot, Windsurf, and Trae.
+- **Multi-IDE Support**: Automatically translates rules for Cursor, Claude, Copilot, Windsurf, Trae, Hermes, and Kiro.
 - **Remote Syncing**: Sync shared team rules from Git repositories.
 - **Enterprise Ready**: Modular architecture, extensible adapters, and robust CLI.
 

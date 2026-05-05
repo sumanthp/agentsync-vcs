@@ -10,6 +10,8 @@ from .adapters.codex import CodexAdapter
 from .adapters.gemini import GeminiAdapter
 from .adapters.windsurf import WindsurfAdapter
 from .adapters.trae import TraeAdapter
+from .adapters.hermes import HermesAdapter
+from .adapters.kiro import KiroAdapter
 from .models import SHARED_FILES
 
 ADAPTERS = {
@@ -19,7 +21,9 @@ ADAPTERS = {
     "codex": CodexAdapter(),
     "gemini": GeminiAdapter(),
     "windsurf": WindsurfAdapter(),
-    "trae": TraeAdapter()
+    "trae": TraeAdapter(),
+    "hermes": HermesAdapter(),
+    "kiro": KiroAdapter()
 }
 
 def main() -> None:

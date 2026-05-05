@@ -34,6 +34,14 @@
     - Rules with `type: skill` are compiled into the `.trae/skills/` directory.
     - All other rules are merged into `.trae/project_rules.md`.
 
+### Hermes
+- **Files**: `.hermes/skills/*.md`
+- **Logic**: All rules are compiled into individual markdown files in `.hermes/skills/`, automatically injecting the required YAML frontmatter with the rule's name and description.
+
+### Kiro
+- **Files**: `.kiro/steering/*.md`
+- **Logic**: All rules are compiled into plain markdown files in `.kiro/steering/`. The rule's description is prepended to the top of the file as a markdown blockquote.
+
 ### Gemini & Codex
 - **Files**: `GEMINI.md`, `AGENTS.md`
 - **Logic**: All rules are merged into these single-file targets.

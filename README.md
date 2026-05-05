@@ -20,6 +20,8 @@ Unlike tools that merely copy text between IDEs, `agentsync-vcs` allows you to m
 - **GitHub Copilot**: `.github/copilot-instructions.md` and `.github/instructions/*.md`
 - **Windsurf**: `.windsurf/rules/*.md` and `.windsurfrules`
 - **Trae**: `.trae/project_rules.md` and `.trae/skills/*.md`
+- **Hermes**: `.hermes/skills/*.md`
+- **Kiro**: `.kiro/steering/*.md`
 - **Codex**: `AGENTS.md`
 - **Gemini**: `GEMINI.md`
 

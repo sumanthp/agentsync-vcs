@@ -24,6 +24,8 @@ always_apply: true
 - **Claude**: Appended to `CLAUDE.md`.
 - **Windsurf**: Added to `.windsurf/rules/ts-standards.md`.
 - **Trae**: Added to `.trae/rules/project_rules.md`.
+- **Hermes**: Added to `.hermes/skills/ts-standards.md`.
+- **Kiro**: Added to `.kiro/steering/ts-standards.md`.
 - **Copilot**: Appended to `.github/copilot-instructions.md`.
 - **Gemini & Codex**: Appended to `GEMINI.md` and `AGENTS.md`.
 
@@ -53,6 +55,8 @@ globs: ["app/api/**/*.py"]
 - **Windsurf**: Written to `.windsurf/rules/api-expert.md`.
 - **Cursor**: Written to `.cursor/rules/api-expert.mdc`.
 - **Copilot**: Written to `.github/instructions/api-expert.instructions.md`.
+- **Hermes**: Written to `.hermes/skills/api-expert.md` with YAML frontmatter.
+- **Kiro**: Written to `.kiro/steering/api-expert.md`.
 
 ---
 
