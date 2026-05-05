@@ -61,6 +61,8 @@ type: rule # Optional: 'rule', 'skill', or 'global'
 - **Claude Code**: Standard rules merge into `CLAUDE.md`. Use `type: skill` for modular capabilities in `.claude/skills/`.
 - **Windsurf**: All rules are compiled into modular `.windsurf/rules/*.md` files for efficient context loading.
 - **Trae**: Universal guidelines go to `.trae/rules/project_rules.md`. Use `type: skill` for modular `.trae/skills/`.
+- **Hermes**: Compiles into `.hermes/skills/*.md` with required YAML frontmatter.
+- **Kiro**: Compiles to plain Markdown in `.kiro/steering/*.md`, extracting description text as quotes.
 - **GitHub Copilot**: Uses `.github/copilot-instructions.md` for global rules and `.github/instructions/*.md` for path-specific ones.
 - **Gemini & Codex**: All rules are intelligently merged into a single source of truth (`GEMINI.md` or `AGENTS.md`).
 
