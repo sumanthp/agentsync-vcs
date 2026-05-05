@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "agentsync-vcs"
-version = "0.2.0"
+version = "0.3.0"
 description = "Universal Version Control System for AI Agent behaviors"
 
 readme = "README.md"
